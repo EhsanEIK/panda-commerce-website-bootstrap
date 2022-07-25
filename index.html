@@ -17,7 +17,7 @@
 <body>
     <header>
         <!-- menu bar -->
-        <nav class=" container navbar navbar-expand-lg bg-light">
+        <nav class="container navbar navbar-expand-lg fixed-top bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./images/logo.png" alt="">
@@ -33,13 +33,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpacks">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -148,7 +148,7 @@
         </section>
 
         <!-- shoes card section -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-3 g-5 mt-1">
                 <div class="col">
@@ -200,7 +200,7 @@
         </section>
 
         <!-- backpack card section -->
-        <section class="container my-5">
+        <section class="container my-5" id="backpacks">
             <h1>Backpacks</h1>
             <div class="row row-cols-1 row-cols-md-3 g-5 mt-1">
                 <div class="col">
@@ -253,7 +253,8 @@
 
         <!-- subscribe section -->
         <section
-            class="container my-5 bg-info rounded-4 d-flex justify-content-center align-items-center subscribe-container-height">
+            class="container my-5 bg-info rounded-4 d-flex justify-content-center align-items-center subscribe-container-height"
+            id="subscribe">
             <div>
                 <h2>LET'S STAY IN TOUCH</h2>
                 <p>Get updates more and explore our items</p>
